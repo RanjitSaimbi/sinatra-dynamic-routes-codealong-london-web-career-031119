@@ -19,5 +19,9 @@ class App < Sinatra::Base
      @user_name = params[:name]
      "Goodbye, #{@user_name}."
   end 
+  
+  get "miltiply/:num1/:num2" do 
+    
+  end 
 
 end
